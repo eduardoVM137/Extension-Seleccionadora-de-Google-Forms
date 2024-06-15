@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Google Forms Helper</title>
+    <title>Google Forms Helper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+        }
+        input[type="text"], button {
+            margin: 5px 0;
+            padding: 8px;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-  <h1>Google Forms Helper</h1>
-  <button id="fillForm">Fill Form</button>
-  <script src="popup.js"></script>
+    <h2>Google Forms Helper</h2>
+    <input type="text" id="apiKey" placeholder="Ingresa tu clave API">
+    <button id="fillForm">Rellenar Formulario</button>
+    <script src="popup.js"></script>
 </body>
 </html>
