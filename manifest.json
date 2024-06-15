@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Google Forms Helper",
+  "name": "Google Forms Blood",
   "version": "1.0",
   "description": "Automáticamente selecciona las respuestas correctas en Google Forms.",
   "permissions": [
